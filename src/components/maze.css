@@ -1,0 +1,21 @@
+.maze-container{
+    width:732px;
+    margin:0 auto;
+    background-color: aliceblue;
+}
+li{
+    width:10%;
+    border:1px solid black;
+    height:50px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.unfilled{
+    background-color: aliceblue;
+}
+.filled{
+    background-color: gray;
+}
+.player{
+    background-color: greenyellow;
+}

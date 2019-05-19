@@ -1,0 +1,36 @@
+.Modal{
+    width:400px;
+    height:400px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    float:right;
+    color:blueviolet;
+    font-size:20px;
+    height:100%;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height:10%;
+}
+.winner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100% - 40px);
+    color:green;
+    font-size:30px;
+    background-color: darkseagreen;
+}
+h4{
+    width:100%;
+}
